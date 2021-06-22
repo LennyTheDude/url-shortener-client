@@ -45,6 +45,7 @@ export const AuthPage = () => {
                         placeholder="Enter email address"
                         type="text"
                         name="email"
+                        value={form.email}
                         onChange={changeHandler}
                     />
                     <label htmlFor="email">Email</label>
@@ -55,6 +56,7 @@ export const AuthPage = () => {
                         placeholder="Enter password"
                         type="password"
                         name="password"
+                        value={form.password}
                         onChange={changeHandler}
                     />
                     <label htmlFor="password">Password</label>

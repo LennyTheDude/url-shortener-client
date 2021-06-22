@@ -17,7 +17,7 @@ export const Navbar = () => {
                 <ul className="navbar">
                     <li className="navbar-item"><NavLink to="/create" className="navbar-item-inside">Create</NavLink></li>
                     <li className="navbar-item"><NavLink to="/links" className="navbar-item-inside">Links</NavLink></li>
-                    <li className="navbar-item"><a href="/" onClick={logoutHandler} className="navbar-item-inside">Logout</a></li>
+                    <li className="navbar-item navbar-logout"><a href="/" onClick={logoutHandler} className="navbar-item-inside">Logout</a></li>
                 </ul>
             </div>
         </nav>
